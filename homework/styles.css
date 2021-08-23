@@ -9,7 +9,7 @@ body {
 
 }
 #black-bar {
-    background-color: black;
+    background-color: DarkBlue;
     color: white;
     padding: 20px 0;
 }
@@ -36,9 +36,33 @@ body {
     height: 40px;
 }
 
-#up-button{
-    position: fixed;
+#select-container{
+       width: 600px;
+       margin: 0 auto;
+       position: relative;
+}
 
+.select{
+       position: absolute;
+       top: 50px;
+}
+
+#input-container{
+        width: 171px;
+        position: relative;
+        float: right;
+}
+
+.input{
+        position: absolute;
+        float: right;
+        top: 50px;
+}
+
+.input-input{
+        position: absolute;
+        float: right;
+        top: 50px;
 }
 
 
