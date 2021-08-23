@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+body {
+    overflow: hidden;
+
+}
+#black-bar {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+#black-bar a {
+    color: white;
+}
+
+.fixed-container{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#datetime{
+    float: right;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    width: 120px;
+    height: 40px;
+}
+
+#up-button{
+    position: fixed;
+
+}
+
+
