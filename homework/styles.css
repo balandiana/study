@@ -2,16 +2,29 @@ html, body {
     margin: 0;
     padding: 0;
     min-width: 1000px;
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0 0 34px;
+    border-bottom: 1px solid #e5e5e5;
+
+
 }
 
 body {
-    overflow: hidden;
+    overflow: ;
 
 }
 #black-bar {
     background-color: DarkBlue;
     color: white;
     padding: 20px 0;
+    font-size: 16px;
 }
 
 #black-bar a {
@@ -29,6 +42,10 @@ body {
     float: right;
 }
 
+#header{
+    height: 100px;
+}
+
 #logo{
     position: absolute;
     top: 40px;
@@ -36,33 +53,44 @@ body {
     height: 40px;
 }
 
-#select-container{
-       width: 600px;
-       margin: 0 auto;
-       position: relative;
+#menu-container{
+     height: 70px;
 }
 
-.select{
-       position: absolute;
-       top: 50px;
+#column-left{
+     background-color: white;
+     width: 250px;
+     float: left;
 }
 
-#input-container{
-        width: 171px;
-        position: relative;
-        float: right;
+#column-center{
+    background-color: yellow;
+    width: 420px;
+    margin-left: 20px;
+    float: left;
 }
 
-.input{
-        position: absolute;
-        float: right;
-        top: 50px;
+#central-container .fixed-container {
+    overflow-y: hidden;
 }
 
-.input-input{
-        position: absolute;
-        float: right;
-        top: 50px;
+#central-container{
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    background-image: url("../images/bgtop.png");
+    background-repeat: repeat-x;
 }
 
+#column-right{
+    width: 250px;
+    float: right;
+}
+
+#special-news{
+    margin-top: 20px;
+}
+
+#column-right img{
+    margin-bottom: 20px;
+}
 
