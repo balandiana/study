@@ -1,14 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>HTML Simple</title>
+</head>
 
-    </head>
+<body>
+    <header>
+        <h1>Hello HTML</h1>
+        <nav>
+            <ul>
+            <li><a href="#topic1">Topic_1</a></li>
+            <li><a href="#topic2">Topic_2</a></li>
+            <li><a href="#topic3">Topic_3</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
+    <main>
+        <div class="info">
+            <form>
+                <fildset action="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96">
+                    <label>Name <input type="text" name="name" placeholder="Enter your name" required/></label>
+                    <label>Email <input type="email" name="email" placeholder="Enter your email" required/></label>
+                    <label>Age <input type="number" name="age" min="16" max="100" placeholder="Enter your age" required/></label>
+                    <p>Are you a student?</p>
+                        <label><input type="radio" name="study" value="yes"> Yes</label>
+                        <label><input type="radio" name="study" valu="no"> No</label>
+                    <label>Do you have any questions? 
+                        <textarea rows="4" cols="20" name="question" placeholder="How long...?">
+                        </textarea>
+                    </label>
+                    <label>I agree to the terms of use and privacy policy?<input type="checkbox" name="" required></label>
+                    <button type="submit">SUBMIT</button>
+                </fildset>
+            </form>
+        </div>
+             <hr>
 
-    </body>
+        <div class="topics">
+            <section id="topic1">
+                <header><h3>Topic - 1</h3></header>
+                <p><i>What is Lorem Ipsum?</i>
+                    <span>Lorem Ipsum</span> is simply dummy text of the printing 
+                    and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but 
+                    also the leap into electronic typesetting, remaining essentially 
+                    unchanged. It was popularised in the 1960s with the release of 
+                    Letraset sheets containing Lorem Ipsum passages, and more 
+                    recently with desktop publishing software like Aldus PageMaker 
+                    including versions of Lorem Ipsum.</p>
+            </section>
+            <section id="topic2">
+                <header><h3>Topic - 2</h3></header>
+                <ol>
+                    <li>One</li>
+                    <li>Two</li>
+                </ol>
+            </section>
+            <section id="topic3">
+                <header><h3>Topic - 3</h3></header>
+                <img src="img/yoga.jpeg" alt="Yoga"/>
+            </section>
+        </div>
+            <hr>
+    </main>
 
-    <script src="index.js"></script>
+    <footer>
+        <div class="end">
+            <blockquote cite="https://www.lipsum.com/">
+                <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                <cite>Lorem Ipsum</cite>
+            </blockquote>
+        </div>
+    
+        <div class="media">
+            <a href="https://www.facebook.com">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
 
 </html>
